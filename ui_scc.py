@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'ui_main_scc.ui'
+# Form implementation generated from reading ui file 'ui_scc.ui'
 #
 # Created by: PyQt5 UI code generator 5.13.0
 #
@@ -149,13 +149,3 @@ class Ui_MainWindow(object):
         self.lineEditMSGCreated.setText(_translate("MainWindow", "19996"))
         self.lineEditMSGmessage.setText(_translate("MainWindow", "Message"))
         self.pushButtonSend.setText(_translate("MainWindow", "Send"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())

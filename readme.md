@@ -3,8 +3,7 @@ This Python app is for testing the ZMQ SUB interface added to cutelog.
 
 # Generate ui_scc.py
 
-> pyuic5 test.ui -o test_ui.py
-
+> pyuic5 ui_scc.ui -o ui_scc.py
 
 # Build
 ## Build command
